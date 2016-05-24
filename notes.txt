@@ -21,3 +21,15 @@ git config --global core.editor nano
 ## Initializations
 
 The command `git init` creates git stuff (staging and the object store) in the current directory.
+
+# Creating the next version
+
+1. Make the desired changes to the files
+2. Add the changes to be in the next version
+3. Commit the staged changes as the next version
+
+```
+nano notes.txt
+git add notes.txt
+git commit
+```
