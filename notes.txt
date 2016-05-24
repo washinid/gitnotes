@@ -53,3 +53,26 @@ View what is going to be part of the next version
 ```
 git diff --staged [<path>]
 ```
+# History
+
+You can see the history of your changes with
+
+```     
+git log
+```
+
+Each version is associated with a big ugly number.
+You don't have to type in the full number, just
+the first couple of digits.  A nice summary is
+given by
+
+```
+git log --oneline
+```
+
+## Specifying previous versions
+
+You can specify a previous version with
+`<commmit>~<n>` where `<commit>` is version
+number of name associated with the version.
+The `~<n>` says to go back n versions.
